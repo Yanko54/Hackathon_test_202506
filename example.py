@@ -1,8 +1,8 @@
 print("hello world")
 
 def greet():
-    return "こんにちは"
-print(greet())
+    print("こんにちは")
+greet()
 
 def print_name(name):
     print(f"私の名前は{name}です")
@@ -13,5 +13,5 @@ def get_greet():
 print(get_greet())
 
 def add(a, b):
-    return(a + b)
+    return a + b
 print(add(1, 2))
